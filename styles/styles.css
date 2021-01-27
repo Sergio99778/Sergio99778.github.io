@@ -12,6 +12,9 @@ header {
     background-color: #525252;
 }
 img {
-    height: 300px;
+    
     width: 300px;
+}
+.prettyprint {
+    background-color: #3d3d3d;
 }
