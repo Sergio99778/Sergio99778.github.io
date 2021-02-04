@@ -22,14 +22,6 @@ header,footer {
     background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: -2px 8px 15px 1px rgba(0,0,0,0.68);
 }
-header .tetris {
-    margin: 0 auto;
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 .header--container-typewriter {
     margin-top: 5px;
 }
@@ -75,7 +67,7 @@ main {
     min-width: 320px;
     height: 500px;/*Set responsive later*/
 }
-.main--redes-section {
+.footer--redes-section {
     height: auto;
     width: 100%;
     min-width: 320px;
@@ -103,4 +95,17 @@ main {
 .fa-linkedin {
     background: #007bb5;
     color: white;
+}
+.fa-github {
+    background-color: #757575;
+    color: white;
+}
+.main--introduction-section .introduction-container {
+    margin: 5px;
+}
+.main--introduction-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    color: turquoise;
 }
