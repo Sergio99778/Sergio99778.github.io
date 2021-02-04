@@ -9,12 +9,68 @@ html {
 }
 
 header {
-    background-color: #525252;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(231, 220, 217);
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.4rem;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: -2px 8px 15px 1px rgba(0,0,0,0.68);
 }
-img {
-    
-    width: 300px;
+header .tetris {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.prettyprint {
-    background-color: #3d3d3d;
+.header--container-typewriter {
+    margin-top: 5px;
+}
+.typewrite {
+    font-family: 'Roboto Mono', monospace;
+    color:white; 
+    text-decoration: none;
+}
+header .header--submenu {
+    margin-top: 15px;
+    width: 90%;
+    display:flex;
+    justify-content: space-evenly;
+}
+header .header--submenu p{
+    display: inline-block;
+}
+.header--hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: rgb(231, 220, 217);
+}
+.header--hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(231, 220, 217);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.header--hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+main {
+    background-color: #1f1f1f;
+    width: 100%;
+    min-width: 320px;
+    height: 500px;/*Set responsive later*/
 }
