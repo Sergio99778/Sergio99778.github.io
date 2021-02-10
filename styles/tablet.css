@@ -1,0 +1,17 @@
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    margin: 0 auto;
+}
+.main--introduction-section{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 1.8rem;
+}
+.main--language-section,
+.main--tools-section {
+    width: 49.5%;
+    min-width: 320px;
+    padding: 15px;
+}

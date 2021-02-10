@@ -69,6 +69,7 @@ main {
     height: auto;
 }
 .footer--redes-section {
+    font-size: 1.5rem;
     height: auto;
     width: 100%;
     min-width: 320px;
@@ -118,6 +119,7 @@ main {
 }
 .main--introduction-section .introduction-list li {
     margin-bottom: 5px;
+    font-size: 1.5rem;
 }
 .main--introduction-section .introduction-list,
 .main--language-section .languages-list,
@@ -141,7 +143,7 @@ main {
 }
 .main--language-section .languages-list li p,
 .main--tools-section .tools-list li p {
-    font-size: 1.25rem;
+    font-size: 1.7rem;
     height: 90%;
     padding: 8px;
 }
