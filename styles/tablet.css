@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     width: 640px;
     margin: 0 auto;
+    width: 100%;
 }
 .main--introduction-section{
     padding-right: 150px;
@@ -15,3 +16,95 @@
     min-width: 320px;
     padding: 15px;
 }
+.main--introduction-section .introduction-container h3,
+.main--language-section .language-section h3,
+.main--tools-section .tools-section h3 {
+    font-size: 3.7rem;
+    margin-bottom: 13px;
+}
+.main--introduction-section .introduction-list li {
+    margin-bottom: 14px;
+    font-size: 2.7rem;
+}
+.main--language-section .languages-list li,
+.main--tools-section .tools-list li {
+    margin-bottom: 10px;
+    margin-right: 1px;
+    height: 60px;
+}
+.main--language-section .languages-list li p,
+.main--tools-section .tools-list li p {
+    font-size: 2.7rem;
+}
+header {
+    font-size: 2.7rem;
+}
+.footer--redes-section p {
+    font-size: 2.5rem;
+}
+.codestream-list-item,
+.mysql-list-item {
+    height: 80px;
+}
+.python-logo {
+    width: 35px;
+    height: 35px;
+}
+.cplus-logo {
+    width: 33px;
+    height: 33px;
+    
+}
+.c-logo {
+    width: 42px;
+    height: 42px;
+}
+.web-logo {
+    width: 60px;
+    height: 37px;
+}
+.java-logo {
+    width: 60px;
+    height: 60px;
+}
+.php-logo {
+    width: 40px;
+    height: 23px;
+}
+.github-logo {
+    width: 40px;
+    height: 40px;
+}
+.mysql-logo {
+    width: 50px;
+    height: 45px;
+}
+.codestream-logo {
+    width: 0px;
+    height: 0px;
+}
+.gnuplot-logo {
+    width: 40px;
+    height: 30px;
+}
+/* #lista2 li:hover:before{
+    transform: rotate(360deg);  
+}
+
+#lista2 li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+} */
