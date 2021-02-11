@@ -239,7 +239,7 @@ main {
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 4px;
-    display: inline-flex;
+    display: inline-grid;
     font-family: 'Josefin Sans', sans-serif;
     justify-content: center;
     width: 32%;
@@ -248,4 +248,11 @@ main {
     margin-right: 1px;
     height: 90px;
     font-size: 1.4rem;
+}
+
+.skills-list li .work-in-team,
+.skills-list li .creativity {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
 }
