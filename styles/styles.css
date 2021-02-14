@@ -246,13 +246,28 @@ main {
     background-color: #1f1f1f;
     margin-bottom: 10px;
     margin-right: 1px;
-    height: 90px;
+    height: 100px;
     font-size: 1.4rem;
 }
 
 .skills-list li .work-in-team,
-.skills-list li .creativity {
+.skills-list li .creativity,
+.skills-list li .enthusiasm,
+.skills-list li .resilience,
+.skills-list li .english,
+.skills-list li .analytical_thinking,
+.skills-list li .assertiveness,
+.skills-list li .comunication,
+.skills-list li .french {
     margin: 0 auto;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
+}
+.skills-list li .resilience,
+.skills-list li .english,
+.skills-list li .analytical_thinking {
+    border-radius: 50px;
+}
+.skills-list__icon:hover {
+    transform: scale(1.2);
 }
