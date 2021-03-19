@@ -36,6 +36,8 @@ header .header--submenu {
     display:flex;
     justify-content: space-evenly;
     font-weight: bold;
+    margin: 0 auto;
+    padding-top: 14px;
 }
 header .header--submenu p{
     display: inline-block;
