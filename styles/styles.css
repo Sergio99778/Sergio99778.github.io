@@ -286,6 +286,24 @@ main {
   background-position: center;
   background-size: cover;
 }
+.react-logo {
+  width: 26px;
+  height: 23px;
+  background-image: url("../img/react_logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.redux-logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/redux-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .main--skills-section .skills-list li {
   padding-left: 2px;
   padding-right: 2px;
