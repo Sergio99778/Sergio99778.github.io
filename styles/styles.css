@@ -150,10 +150,16 @@ main {
 .main--language-section,
 .main--tools-section,
 .main--skills-section {
+  text-align: center;
   width: 100%;
   min-width: 320px;
   padding: 15px;
 }
+
+.main--introduction-section {
+  margin: 0 auto;
+}
+
 .main--introduction-section .introduction-container h3,
 .main--language-section .language-section h3,
 .main--tools-section .tools-section h3,
