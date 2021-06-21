@@ -177,6 +177,10 @@ main {
   list-style: none;
 }
 
+.main--introduction-section {
+  width: 90%;
+}
+
 .main--language-section .languages-list li,
 .main--tools-section .tools-list li {
   display: inline-flex;
