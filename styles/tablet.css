@@ -17,6 +17,7 @@
 .main--introduction-section .introduction-container h3,
 .main--language-section .language-section h3,
 .main--tools-section .tools-section h3,
+.main--skills-section .skills-section h3,
 .projects-title {
   font-size: 3.7rem;
   margin-bottom: 13px;
@@ -98,6 +99,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 /* #lista2 li:hover:before{
     transform: rotate(360deg);  
 }
