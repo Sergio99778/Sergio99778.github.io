@@ -81,6 +81,7 @@ header .header--submenu p {
 .projects {
   width: 90%;
   margin: 0 auto;
+  border-radius: 4px;
 }
 
 .projects-title {
