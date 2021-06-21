@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <!--Styles-->
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/tablet.css" media="(min-width : 650px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,17 +17,17 @@
     <script src="./js/type-writer.js"></script>
 </head>
 <body>
-    <header>
-        <h2 class="header--container-typewriter">
+    <header id="welcome-section">
+        <h1 class="header--container-typewriter">
             <a href="" class="typewrite" data-period="2000" data-type='[ "Creating software.", "Creating the future.", "I Love to code.", "I Love to Develop." ]'>
               <span class="wrap"></span>
             </a>
-        </h2>
-        <div class="header--submenu">
+        </h1>
+        <nav class="header--submenu" id="navbar">
             <a class="header--hover-underline-animation" href="#">Projects</a>
             <a class="header--hover-underline-animation" href="#">Objectives</a>
             <a class="header--hover-underline-animation" href="#">About me</a>
-        </div>
+        </nav>
     </header>
     <main>
         <section class="main--introduction-section">
@@ -35,6 +37,35 @@
                     <li><span>✨</span> I'm an appasionate programmer who wants to make a better world by tipping the keys of a laptop and developing new software wich will become essential in the comunity.</li>
                     <li><span>✨</span> I love to make code and work with teams in challenging projects</li>
                 </ul>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h3 class="projects-title"> Projects</h3>
+            <div class="main--projects-section">
+                <div class="project">
+                    <h3 class="project-title">Clandestino</h3>
+                    <a href="">
+                        <img class="project--image" src="./img/projects/clandestino.jpg" alt="Clandestino project">
+                    </a>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Places react</h3>
+                    <a href="">
+                        <img class="project--image" src="./img/projects/places.jpg" alt="Places project">
+                    </a>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Landing page</h3>
+                    <a href="">
+                        <img class="project--image" src="./img/projects/landing-page.jpg" alt="Landing page project">
+                    </a>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Tribute page</h3>
+                    <a href="">
+                        <img class="project--image" src="./img/projects/tribute.jpg" alt="Tribute project">
+                    </a>
+                </div>
             </div>
         </section>
         <div class="media">
@@ -106,7 +137,6 @@
                 </ul>
             </div>
         </section>
-        <section></section>
     </main>
     <footer>
         <section class="footer--redes-section">
@@ -115,7 +145,7 @@
                 <a href="https://www.facebook.com/sergio1729/" class="fa fa-facebook"></a>
                 <a href="https://twitter.com/SergioDeLucio2" class="fa fa-twitter"></a>
                 <a href="https://www.linkedin.com/in/sergio-de-lucio/" class="fa fa-linkedin"></a>
-                <i href="https://github.com/Sergio99778/" class="fa fa-github"></i>
+                <i href="https://github.com/Sergio99778/" class="fa fa-github" id="profile-link"></i>
             </div>
         </section>
     </footer>
