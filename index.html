@@ -1,159 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!--Meta-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sergio Brandon De Lucio portfolio">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sergio Brandon De Lucio portfolio" />
     <title>Portfolio</title>
     <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
     <!--Styles-->
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width : 650px)">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/tablet.css"
+      media="(min-width : 650px)"
+    />
     <!--Favicon-->
-    <link rel="shortcut icon" href="./img/favicon/heart.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link
+      rel="shortcut icon"
+      href="./img/favicon/heart.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
     <script src="./js/type-writer.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header id="welcome-section">
-        <h1 class="header--container-typewriter">
-            <a href="" class="typewrite" data-period="2000" data-type='[ "Creating software.", "Creating the future.", "I Love to code.", "I Love to Develop." ]'>
-              <span class="wrap"></span>
-            </a>
-        </h1>
-        <nav class="header--submenu" id="navbar">
-            <a class="header--hover-underline-animation" href="#">Projects</a>
-            <a class="header--hover-underline-animation" href="#">Objectives</a>
-            <a class="header--hover-underline-animation" href="#">About me</a>
-        </nav>
+      <h1 class="header--container-typewriter">
+        <a
+          href=""
+          class="typewrite"
+          data-period="2000"
+          data-type='[ "Creating software.", "Creating the future.", "I Love to code.", "I Love to Develop." ]'
+        >
+          <span class="wrap"></span>
+        </a>
+      </h1>
+      <nav class="header--submenu" id="navbar">
+        <a class="header--hover-underline-animation" href="#">Projects</a>
+        <a class="header--hover-underline-animation" href="#">Objectives</a>
+        <a class="header--hover-underline-animation" href="#">About me</a>
+      </nav>
     </header>
     <main>
-        <section class="main--introduction-section">
-            <div class="introduction-container">
-                <h3>Welcome to my website ❤️</h3>
-                <ul class="introduction-list">
-                    <li><span>✨</span> I'm an appasionate programmer who wants to make a better world by tipping the keys of a laptop and developing new software wich will become essential in the comunity.</li>
-                    <li><span>✨</span> I love to make code and work with teams in challenging projects</li>
-                </ul>
-            </div>
-        </section>
-        <section class="projects" id="projects">
-            <h3 class="projects-title"> Projects</h3>
-            <div class="main--projects-section">
-                <div class="project">
-                    <h3 class="project-title">Clandestino</h3>
-                    <a href="https://github.com/Sergio99778/clandestino">
-                        <img class="project--image" src="./img/projects/clandestino.jpg" alt="Clandestino project">
-                    </a>
-                </div>
-                <div class="project">
-                    <h3 class="project-title">Places react</h3>
-                    <a href="https://github.com/Sergio99778/places-react">
-                        <img class="project--image" src="./img/projects/places.jpg" alt="Places project">
-                    </a>
-                </div>
-                <div class="project">
-                    <h3 class="project-title">Landing page</h3>
-                    <a href="https://github.com/Sergio99778/responsive-freeCodeCamp">
-                        <img class="project--image" src="./img/projects/landing-page.jpg" alt="Landing page project">
-                    </a>
-                </div>
-                <div class="project">
-                    <h3 class="project-title">Tribute page</h3>
-                    <a href="https://sergio99778.github.io/responsive-freeCodeCamp/Build-a-Tribute-Page/index.html">
-                        <img class="project--image" src="./img/projects/tribute.jpg" alt="Tribute project">
-                    </a>
-                </div>
-            </div>
-        </section>
-        <div class="media">
-            <section class="main--language-section">
-                <div class="language-section">
-                    <h3>Languages</h3>
-                    <ul class="languages-list">
-                        <li><p>Python</p><span class="python-logo"></span></li>
-                        <li><p>C++</p><span class="cplus-logo"></span></li>
-                        <li><p>C</p><span class="c-logo"></span></li>
-                        <li><p>Web</p><span class="web-logo"></span></li>
-                        <li><p>Java</p><span class="java-logo"></span></li>
-                        <li><p>PHP</p><span class="php-logo"></span></li>
-                    </ul>
-                </div>
-            </section>
-            <section class="main--tools-section">
-                <div class="tools-section">
-                    <h3>Tools</h3>
-                    <ul class="tools-list">
-                        <li><p>GitHub</p><span class="github-logo"></span></li>
-                        <li><p>Gnuplot</p><span class="gnuplot-logo"></span></li>
-                        <li class="codestream-list-item"><p>Codestream</p><span class="codestream-logo"></span></li>
-                        <li class="mysql-list-item"><p>MySQL</p><span class="mysql-logo"></span></li>
-                        <li><p>React</p><span class="react-logo"></span></li>
-                        <li><p>Redux</p><span class="redux-logo"></span></li>
-                    </ul>
-                </div>
-            </section>
+      <section class="main--introduction-section">
+        <div class="introduction-container">
+          <h3>Welcome to my website ❤️</h3>
+          <ul class="introduction-list">
+            <li>
+              <span>✨</span> I'm an appasionate programmer who wants to make a
+              better world by tipping the keys of a laptop and developing new
+              software wich will become essential in the comunity.
+            </li>
+            <li>
+              <span>✨</span> I love to make code and work with teams in
+              challenging projects
+            </li>
+          </ul>
         </div>
-        <section class="main--skills-section">
-            <div class="skills-section">
-                <h3 >Skills</h3>
-                <ul class="skills-list">
-                    <li >
-                        <p>Work in team</p>
-                        <img src="./img/team.png" alt="" class="skills-list__icon work-in-team">
-                    </li>
-                    <li >
-                        <p>Creativity</p>
-                        <img src="./img/creativity.svg" alt="" class="skills-list__icon creativity">
-                    </li>
-                    <li >
-                        <p>Enthusiasm</p>
-                        <img src="./img/enthusiasm.png" alt="" class="skills-list__icon enthusiasm">
-                    </li>
-                    <li>
-                        <p>Resilience</p>
-                        <img src="./img/resiliencia.png" alt="" class="skills-list__icon resilience">
-                    </li>
-                    <li>
-                        <p>English B2</p>
-                        <img src="./img/b2-english.png" alt="" class="skills-list__icon english">
-                    </li>
-                    <li>
-                        <p>Analytical</p>
-                        <img src="./img/analytical.jpg" alt="" class="skills-list__icon analytical_thinking">
-                    </li>
-                    <li class="">
-                        <p>Assertiveness</p>
-                        <img src="./img/Assertiveness.png" alt="" class="skills-list__icon assertiveness">
-                    </li>
-                    <li class="">
-                        <p>Comunication</p>
-                        <img src="./img/comunication.png" alt="" class="skills-list__icon comunication">
-                    </li>
-                    <li class="">
-                        <p>French A2</p>
-                        <img src="./img/french.png" alt="" class="skills-list__icon french">
-                    </li>
-                </ul>
-            </div>
+      </section>
+      <section class="projects" id="projects">
+        <h3 class="projects-title">Projects</h3>
+        <div class="main--projects-section">
+          <div class="project">
+            <h3 class="project-title">Clandestino</h3>
+            <a
+              href="https://github.com/Sergio99778/clandestino"
+              target="_blank"
+            >
+              <img
+                class="project--image"
+                src="./img/projects/clandestino.jpg"
+                alt="Clandestino project"
+              />
+            </a>
+          </div>
+          <div class="project">
+            <h3 class="project-title">Places react</h3>
+            <a
+              href="https://github.com/Sergio99778/places-react"
+              target="_blank"
+            >
+              <img
+                class="project--image"
+                src="./img/projects/places.jpg"
+                alt="Places project"
+              />
+            </a>
+          </div>
+          <div class="project">
+            <h3 class="project-title">Landing page</h3>
+            <a
+              href="https://github.com/Sergio99778/responsive-freeCodeCamp"
+              target="_blank"
+            >
+              <img
+                class="project--image"
+                src="./img/projects/landing-page.jpg"
+                alt="Landing page project"
+              />
+            </a>
+          </div>
+          <div class="project">
+            <h3 class="project-title">Tribute page</h3>
+            <a
+              href="https://sergio99778.github.io/responsive-freeCodeCamp/Build-a-Tribute-Page/index.html"
+              target="_blank"
+            >
+              <img
+                class="project--image"
+                src="./img/projects/tribute.jpg"
+                alt="Tribute project"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="media">
+        <section class="main--language-section">
+          <div class="language-section">
+            <h3>Languages</h3>
+            <ul class="languages-list">
+              <li>
+                <p>Python</p>
+                <span class="python-logo"></span>
+              </li>
+              <li>
+                <p>C++</p>
+                <span class="cplus-logo"></span>
+              </li>
+              <li>
+                <p>C</p>
+                <span class="c-logo"></span>
+              </li>
+              <li>
+                <p>Web</p>
+                <span class="web-logo"></span>
+              </li>
+              <li>
+                <p>Java</p>
+                <span class="java-logo"></span>
+              </li>
+              <li>
+                <p>PHP</p>
+                <span class="php-logo"></span>
+              </li>
+            </ul>
+          </div>
         </section>
+        <section class="main--tools-section">
+          <div class="tools-section">
+            <h3>Tools</h3>
+            <ul class="tools-list">
+              <li>
+                <p>GitHub</p>
+                <span class="github-logo"></span>
+              </li>
+              <li>
+                <p>Gnuplot</p>
+                <span class="gnuplot-logo"></span>
+              </li>
+              <li class="codestream-list-item">
+                <p>Codestream</p>
+                <span class="codestream-logo"></span>
+              </li>
+              <li class="mysql-list-item">
+                <p>MySQL</p>
+                <span class="mysql-logo"></span>
+              </li>
+              <li>
+                <p>React</p>
+                <span class="react-logo"></span>
+              </li>
+              <li>
+                <p>Redux</p>
+                <span class="redux-logo"></span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <section class="main--skills-section">
+        <div class="skills-section">
+          <h3>Skills</h3>
+          <ul class="skills-list">
+            <li>
+              <p>Work in team</p>
+              <img
+                src="./img/team.png"
+                alt=""
+                class="skills-list__icon work-in-team"
+              />
+            </li>
+            <li>
+              <p>Creativity</p>
+              <img
+                src="./img/creativity.svg"
+                alt=""
+                class="skills-list__icon creativity"
+              />
+            </li>
+            <li>
+              <p>Enthusiasm</p>
+              <img
+                src="./img/enthusiasm.png"
+                alt=""
+                class="skills-list__icon enthusiasm"
+              />
+            </li>
+            <li>
+              <p>Resilience</p>
+              <img
+                src="./img/resiliencia.png"
+                alt=""
+                class="skills-list__icon resilience"
+              />
+            </li>
+            <li>
+              <p>English B2</p>
+              <img
+                src="./img/b2-english.png"
+                alt=""
+                class="skills-list__icon english"
+              />
+            </li>
+            <li>
+              <p>Analytical</p>
+              <img
+                src="./img/analytical.jpg"
+                alt=""
+                class="skills-list__icon analytical_thinking"
+              />
+            </li>
+            <li class="">
+              <p>Assertiveness</p>
+              <img
+                src="./img/Assertiveness.png"
+                alt=""
+                class="skills-list__icon assertiveness"
+              />
+            </li>
+            <li class="">
+              <p>Comunication</p>
+              <img
+                src="./img/comunication.png"
+                alt=""
+                class="skills-list__icon comunication"
+              />
+            </li>
+            <li class="">
+              <p>French A2</p>
+              <img
+                src="./img/french.png"
+                alt=""
+                class="skills-list__icon french"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
-        <section class="footer--redes-section">
-            <p>Contact with me :</p>
-            <div class="redes-container">
-                <a href="https://www.facebook.com/sergio1729/" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/SergioDeLucio2" class="fa fa-twitter"></a>
-                <a href="https://www.linkedin.com/in/sergio-de-lucio/" class="fa fa-linkedin"></a>
-                <a href="https://github.com/Sergio99778/" class="fa fa-github" id="profile-link"></a>
-            </div>
-        </section>
+      <section class="footer--redes-section">
+        <p>Contact with me :</p>
+        <div class="redes-container">
+          <a
+            href="https://www.facebook.com/sergio1729/"
+            class="fa fa-facebook"
+          ></a>
+          <a
+            href="https://twitter.com/SergioDeLucio2"
+            class="fa fa-twitter"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sergio-de-lucio/"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://github.com/Sergio99778/"
+            class="fa fa-github"
+            id="profile-link"
+          ></a>
+        </div>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
