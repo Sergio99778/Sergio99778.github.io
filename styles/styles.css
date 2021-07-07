@@ -206,6 +206,8 @@ main {
   padding: 8px;
 }
 .python-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 20px;
   height: 20px;
   background-image: url("../img/python-logo.png");
@@ -214,6 +216,8 @@ main {
   background-size: cover;
 }
 .cplus-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 20px;
   height: 20px;
   background-image: url("../img/C++_Logo.svg");
@@ -222,6 +226,8 @@ main {
   background-size: cover;
 }
 .c-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 20px;
   height: 20px;
   background-image: url("../img/c-logo.png");
@@ -230,6 +236,8 @@ main {
   background-size: cover;
 }
 .web-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 55px;
   height: 25px;
   background-image: url("../img/web-programation.png");
@@ -238,6 +246,8 @@ main {
   background-size: cover;
 }
 .java-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 20px;
   height: 20px;
   background-image: url("../img/java-logo.png");
@@ -246,6 +256,8 @@ main {
   background-size: cover;
 }
 .php-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 40px;
   height: 20px;
   background-image: url("../img/php-logo.png");
@@ -254,6 +266,8 @@ main {
   background-size: cover;
 }
 .github-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 20px;
   height: 20px;
   background-image: url("../img/github.svg");
@@ -263,6 +277,8 @@ main {
 }
 
 .gnuplot-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 30px;
   height: 20px;
   background-image: url("../img/gnuplot_logo.png");
@@ -271,6 +287,8 @@ main {
   background-size: cover;
 }
 .codestream-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 20px;
   height: 20px;
   background-image: url("../img/codestream-logo.png");
@@ -279,6 +297,8 @@ main {
   background-size: cover;
 }
 .mysql-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 40px;
   height: 20px;
   background-image: url("../img/mysql-logo.svg");
@@ -287,6 +307,8 @@ main {
   background-size: cover;
 }
 .react-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 26px;
   height: 23px;
   background-image: url("../img/react_logo.svg");
@@ -296,6 +318,8 @@ main {
 }
 
 .redux-logo {
+  transform: scale(1);
+  transition: transform 0.3s;
   width: 20px;
   height: 20px;
   background-image: url("../img/redux-logo.png");
@@ -303,7 +327,9 @@ main {
   background-position: center;
   background-size: cover;
 }
-
+.logo:hover {
+  transform: scale(1.5);
+}
 .main--skills-section .skills-list li {
   padding-left: 2px;
   padding-right: 2px;
@@ -338,5 +364,9 @@ main {
   border-radius: 50px;
 }
 .skills-list__icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
+}
+.skills-list__icon {
+  transform: scale(1);
+  transition: transform 0.3s;
 }
